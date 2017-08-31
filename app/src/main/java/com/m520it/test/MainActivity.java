@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+//
         PtrClassicDefaultHeader header = new PtrClassicDefaultHeader(this);
         mPtrFrameLayout.addPtrUIHandler(header);
         mPtrFrameLayout.setHeaderView(header);
