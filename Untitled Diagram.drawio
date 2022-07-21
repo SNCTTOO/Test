@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-21T06:49:58.716Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15" etag="_RuLRTfL52M6HnkR9He-" version="20.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-21T06:55:30.618Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15" etag="ak-8rQ0janqMGjnDsljq" version="20.1.3" type="github">
   <diagram id="knnRiP61EcZTkkcnmOvv" name="Page-1">
-    <mxGraphModel dx="1173" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1095" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -91,53 +91,14 @@
         <mxCell id="YyE2DXB9Agdw8TqX3AQA-35" value="3.结果拦截输出" style="swimlane;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="640" y="30" width="150" height="710" as="geometry" />
         </mxCell>
-        <mxCell id="YyE2DXB9Agdw8TqX3AQA-43" value="APP启动" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="50" y="950" width="120" height="60" as="geometry" />
+        <mxCell id="YyE2DXB9Agdw8TqX3AQA-60" value="旧接口访问token:关联APISetting接口返回的接口相关，请求时在链接上追加query参数token" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="50" y="1060" width="900" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YyE2DXB9Agdw8TqX3AQA-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="YyE2DXB9Agdw8TqX3AQA-43" target="YyE2DXB9Agdw8TqX3AQA-45" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="180" y="980" as="sourcePoint" />
-            <mxPoint x="270" y="980" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="YyE2DXB9Agdw8TqX3AQA-61" value="API列表接口：关键接口，App获取线上api接口列表，按照Map键值对的形式存储在本地。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="50" y="1110" width="890" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YyE2DXB9Agdw8TqX3AQA-45" value="检测旧接口&lt;br&gt;访问Token" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="230" y="950" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YyE2DXB9Agdw8TqX3AQA-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="YyE2DXB9Agdw8TqX3AQA-45" target="YyE2DXB9Agdw8TqX3AQA-49" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="980" as="sourcePoint" />
-            <mxPoint x="490" y="979.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YyE2DXB9Agdw8TqX3AQA-49" value="更新本地API列表接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="400" y="950" width="130" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YyE2DXB9Agdw8TqX3AQA-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="YyE2DXB9Agdw8TqX3AQA-49" target="YyE2DXB9Agdw8TqX3AQA-51" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="640" y="979.5" as="sourcePoint" />
-            <mxPoint x="740" y="979.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YyE2DXB9Agdw8TqX3AQA-51" value="更新获取用户信息Token" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="590" y="950" width="113" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YyE2DXB9Agdw8TqX3AQA-57" value="检测旧接口&lt;br&gt;访问JavaToken" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="770" y="950" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YyE2DXB9Agdw8TqX3AQA-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="YyE2DXB9Agdw8TqX3AQA-51" target="YyE2DXB9Agdw8TqX3AQA-57" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="890" y="980" as="sourcePoint" />
-            <mxPoint x="800" y="990" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YyE2DXB9Agdw8TqX3AQA-60" value="旧接口访问token:关联APISetting接口返回的接口相关，请求时在链接上追加query参数token" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="50" y="1060" width="785" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="YyE2DXB9Agdw8TqX3AQA-61" value="API列表接口：关键接口，App获取线上api接口列表，按照Map键值对的形式存储在本地。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="50" y="1110" width="785" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="YyE2DXB9Agdw8TqX3AQA-63" value="旧接口访问JavaToken： 根据API接口返回的对应关键字：APPCLIENT_API_URL，APPCLIENT_API_URL_1，APPCLIENT_API_URL_2，如果请求接口是上述url地址开头时，拦截请求在链接上追加query参数JavaToken" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="42" y="1160" width="785" height="80" as="geometry" />
+        <mxCell id="YyE2DXB9Agdw8TqX3AQA-63" value="旧接口访问JavaToken： 根据API接口返回的对应关键字：APPCLIENT_API_URL，APPCLIENT_API_URL_1，APPCLIENT_API_URL_2，如果请求接口是上述url地址开头时，拦截请求在链接上追加query参数JavaToken" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" parent="1" vertex="1">
+          <mxGeometry x="42" y="1160" width="858" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YyE2DXB9Agdw8TqX3AQA-98" value="" style="line;strokeWidth=2;direction=south;html=1;fontSize=15;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="490" y="1450" width="10" height="350" as="geometry" />
@@ -271,14 +232,59 @@
         <mxCell id="57UIz0hqSvFxVPXOZuJL-39" value="全局数据定义：token数据、user信息数据、sp数据、数据库数据、全局变量数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="1">
           <mxGeometry x="70" y="2460" width="720" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="57UIz0hqSvFxVPXOZuJL-42" value="通讯数据返回方式：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="1">
-          <mxGeometry x="63.5" y="2720" width="273" height="30" as="geometry" />
+        <mxCell id="57UIz0hqSvFxVPXOZuJL-52" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="50" y="910" width="990" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="57UIz0hqSvFxVPXOZuJL-43" value="指定目标返回：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="1">
-          <mxGeometry x="230" y="2780" width="220" height="30" as="geometry" />
+        <mxCell id="YyE2DXB9Agdw8TqX3AQA-43" value="APP启动" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="57UIz0hqSvFxVPXOZuJL-52" vertex="1">
+          <mxGeometry width="141.42857142857142" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="57UIz0hqSvFxVPXOZuJL-47" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="230" y="3030" width="760" height="30" as="geometry" />
+        <mxCell id="YyE2DXB9Agdw8TqX3AQA-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="57UIz0hqSvFxVPXOZuJL-52" source="YyE2DXB9Agdw8TqX3AQA-43" target="YyE2DXB9Agdw8TqX3AQA-45" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="153.21428571428572" y="50" as="sourcePoint" />
+            <mxPoint x="259.2857142857143" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YyE2DXB9Agdw8TqX3AQA-45" value="检测旧接口&lt;br&gt;访问Token" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="57UIz0hqSvFxVPXOZuJL-52" vertex="1">
+          <mxGeometry x="212.14285714285717" width="141.42857142857142" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YyE2DXB9Agdw8TqX3AQA-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="57UIz0hqSvFxVPXOZuJL-52" source="YyE2DXB9Agdw8TqX3AQA-45" target="YyE2DXB9Agdw8TqX3AQA-49" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400.7142857142857" y="50" as="sourcePoint" />
+            <mxPoint x="518.5714285714286" y="49.16666666666667" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YyE2DXB9Agdw8TqX3AQA-49" value="更新本地API列表接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="57UIz0hqSvFxVPXOZuJL-52" vertex="1">
+          <mxGeometry x="412.50000000000006" width="153.21428571428572" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YyE2DXB9Agdw8TqX3AQA-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="57UIz0hqSvFxVPXOZuJL-52" source="YyE2DXB9Agdw8TqX3AQA-49" target="YyE2DXB9Agdw8TqX3AQA-51" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="695.3571428571429" y="49.16666666666667" as="sourcePoint" />
+            <mxPoint x="813.2142857142857" y="49.16666666666667" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YyE2DXB9Agdw8TqX3AQA-51" value="更新获取用户信息Token" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="57UIz0hqSvFxVPXOZuJL-52" vertex="1">
+          <mxGeometry x="636.4285714285714" width="133.17857142857144" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YyE2DXB9Agdw8TqX3AQA-57" value="检测旧接口&lt;br&gt;访问JavaToken" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="57UIz0hqSvFxVPXOZuJL-52" vertex="1">
+          <mxGeometry x="848.5714285714287" width="141.42857142857142" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YyE2DXB9Agdw8TqX3AQA-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="57UIz0hqSvFxVPXOZuJL-52" source="YyE2DXB9Agdw8TqX3AQA-51" target="YyE2DXB9Agdw8TqX3AQA-57" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990.0000000000001" y="50" as="sourcePoint" />
+            <mxPoint x="883.9285714285714" y="66.66666666666667" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="57UIz0hqSvFxVPXOZuJL-53" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="60" y="2710" width="1066.5" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="57UIz0hqSvFxVPXOZuJL-42" value="通讯数据返回方式：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="57UIz0hqSvFxVPXOZuJL-53">
+          <mxGeometry width="273" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="57UIz0hqSvFxVPXOZuJL-43" value="指定目标返回：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="57UIz0hqSvFxVPXOZuJL-53">
+          <mxGeometry x="166.5" y="60" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="57UIz0hqSvFxVPXOZuJL-47" value="" style="group" vertex="1" connectable="0" parent="57UIz0hqSvFxVPXOZuJL-53">
+          <mxGeometry x="166.5" y="310" width="760" height="30" as="geometry" />
         </mxCell>
         <mxCell id="57UIz0hqSvFxVPXOZuJL-44" value="无序传输：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="57UIz0hqSvFxVPXOZuJL-47">
           <mxGeometry width="160" height="30" as="geometry" />
@@ -286,14 +292,14 @@
         <mxCell id="57UIz0hqSvFxVPXOZuJL-46" value="借助数据总线的方式，类似发event方式广播发送" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="57UIz0hqSvFxVPXOZuJL-47">
           <mxGeometry x="140" width="620" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="57UIz0hqSvFxVPXOZuJL-48" value="1.同步结果输出：通过调用函数返回参数指定返回" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="1">
-          <mxGeometry x="329" y="2830" width="652" height="30" as="geometry" />
+        <mxCell id="57UIz0hqSvFxVPXOZuJL-48" value="1.同步结果输出：通过调用函数返回参数指定返回" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="57UIz0hqSvFxVPXOZuJL-53">
+          <mxGeometry x="265.5" y="110" width="652" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="57UIz0hqSvFxVPXOZuJL-49" value="2.异步结果输出：实现回调接口，根据code值指定拿去结果。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="1">
-          <mxGeometry x="329" y="2892.5" width="801" height="30" as="geometry" />
+        <mxCell id="57UIz0hqSvFxVPXOZuJL-49" value="2.异步结果输出：实现回调接口，根据code值指定拿去结果。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="57UIz0hqSvFxVPXOZuJL-53">
+          <mxGeometry x="265.5" y="172.5" width="801" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="57UIz0hqSvFxVPXOZuJL-50" value="3.数据总线方式输出" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="1">
-          <mxGeometry x="320" y="2960" width="312" height="30" as="geometry" />
+        <mxCell id="57UIz0hqSvFxVPXOZuJL-50" value="3.数据总线方式输出" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="57UIz0hqSvFxVPXOZuJL-53">
+          <mxGeometry x="256.5" y="240" width="312" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
