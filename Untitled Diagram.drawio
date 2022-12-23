@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-23T04:57:37.673Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" etag="mBNs9N_io_bh_hezj1Cm" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-23T04:58:09.769Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" etag="Uyr3-l7TodhtF5BZxN_4" version="20.7.4" type="github">
   <diagram id="knnRiP61EcZTkkcnmOvv" name="Page-1">
     <mxGraphModel dx="1434" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1257,15 +1257,11 @@
         <mxCell id="gvJh8n1ncWGzyogRVfOT-118" value="网关验证" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="gvJh8n1ncWGzyogRVfOT-84">
           <mxGeometry x="2" y="356" width="95" height="69" as="geometry" />
         </mxCell>
-        <mxCell id="gvJh8n1ncWGzyogRVfOT-106" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=12;fontColor=#000000;entryX=1;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="gvJh8n1ncWGzyogRVfOT-81" target="gvJh8n1ncWGzyogRVfOT-107">
-          <mxGeometry x="1" y="-256" relative="1" as="geometry">
-            <mxPoint x="240" y="200" as="sourcePoint" />
-            <mxPoint x="-250" y="200" as="targetPoint" />
-            <mxPoint x="-90" y="16" as="offset" />
-          </mxGeometry>
+        <mxCell id="gvJh8n1ncWGzyogRVfOT-104" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;labelBackgroundColor=#ffffff;fontSize=12;fontColor=#FFFFFF;" vertex="1" parent="gvJh8n1ncWGzyogRVfOT-84">
+          <mxGeometry x="44.5" y="80" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gvJh8n1ncWGzyogRVfOT-108" value="&lt;font color=&quot;#000000&quot;&gt;2.返回时间戳&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=12;fontColor=#FFFFFF;" vertex="1" parent="gvJh8n1ncWGzyogRVfOT-81">
-          <mxGeometry x="110" y="170" width="125" height="30" as="geometry" />
+        <mxCell id="gvJh8n1ncWGzyogRVfOT-108" value="&lt;font color=&quot;#000000&quot;&gt;2.返回时间戳&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#ffffff;fontSize=12;fontColor=#FFFFFF;" vertex="1" parent="gvJh8n1ncWGzyogRVfOT-84">
+          <mxGeometry x="-51" y="130" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gvJh8n1ncWGzyogRVfOT-122" value="7.验签通过，处理请求" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="gvJh8n1ncWGzyogRVfOT-81">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -1291,9 +1287,6 @@
         <mxCell id="gvJh8n1ncWGzyogRVfOT-94" value="服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1347" y="6970" width="100" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="gvJh8n1ncWGzyogRVfOT-104" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;labelBackgroundColor=#ffffff;fontSize=12;fontColor=#FFFFFF;" vertex="1" parent="gvJh8n1ncWGzyogRVfOT-94">
-          <mxGeometry x="46" y="79" width="10" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="gvJh8n1ncWGzyogRVfOT-124" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="gvJh8n1ncWGzyogRVfOT-94">
           <mxGeometry x="45" y="390" width="10" height="60" as="geometry" />
         </mxCell>
@@ -1302,10 +1295,10 @@
             <mxRectangle x="150" y="6320" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gvJh8n1ncWGzyogRVfOT-103" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;fontColor=#FFFFFF;" edge="1" parent="gvJh8n1ncWGzyogRVfOT-98" target="gvJh8n1ncWGzyogRVfOT-94">
+        <mxCell id="gvJh8n1ncWGzyogRVfOT-103" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;fontColor=#FFFFFF;" edge="1" parent="gvJh8n1ncWGzyogRVfOT-98">
           <mxGeometry x="-1" y="174" width="80" relative="1" as="geometry">
             <mxPoint x="34" y="120" as="sourcePoint" />
-            <mxPoint x="114" y="120" as="targetPoint" />
+            <mxPoint x="370" y="120" as="targetPoint" />
             <mxPoint x="-104" y="34" as="offset" />
           </mxGeometry>
         </mxCell>
@@ -1377,6 +1370,13 @@
         </mxCell>
         <mxCell id="gvJh8n1ncWGzyogRVfOT-128" value="验签不通过" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gvJh8n1ncWGzyogRVfOT-98">
           <mxGeometry x="216.5" y="439" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gvJh8n1ncWGzyogRVfOT-106" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=12;fontColor=#000000;entryX=1;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="gvJh8n1ncWGzyogRVfOT-107">
+          <mxGeometry x="1" y="-256" relative="1" as="geometry">
+            <mxPoint x="1230" y="7130" as="sourcePoint" />
+            <mxPoint x="900" y="7130" as="targetPoint" />
+            <mxPoint x="-90" y="16" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
