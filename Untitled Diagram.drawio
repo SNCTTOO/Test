@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T06:20:36.171Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="GaRgRIgRUWsA354asHcI" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-17T06:53:32.276Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="IHbnTjpwGeq3qdXlYq2U" version="20.7.4" type="github">
   <diagram id="knnRiP61EcZTkkcnmOvv" name="Page-1">
-    <mxGraphModel dx="1216" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="934" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1838,6 +1838,15 @@
             <mxPoint x="3180" y="1500" as="sourcePoint" />
             <mxPoint x="3000" y="1500" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="GvTC42yVj7hXQ8CFj6Ae-3" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=1;rounded=1;fontSize=16;strokeColor=default;dashPattern=8 8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1679.5" y="4080" as="sourcePoint" />
+            <mxPoint x="2429.7200000000003" y="4080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GvTC42yVj7hXQ8CFj6Ae-4" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Android/IOS 底层架构框架&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1700.5" y="4100" width="709" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
