@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-05-11T06:15:17.633Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35" etag="fui-UCM4408k7OhJBtsH" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-12T01:30:24.988Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35" etag="DLGM6RvLyMOlyJDFTupa" version="21.0.10" type="github">
   <diagram id="knnRiP61EcZTkkcnmOvv" name="Page-1">
     <mxGraphModel dx="1434" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-80" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="268.5" y="8438.5" width="171.5" height="140" as="geometry" />
+        </mxCell>
         <mxCell id="C4ENimyMixxiN8Ejkz7W-17" value="路由组件" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;dashed=1;dashPattern=1 4;" parent="1" vertex="1">
           <mxGeometry x="2743" y="1240" width="315" height="540" as="geometry" />
         </mxCell>
@@ -2061,176 +2064,239 @@
         <mxCell id="qHAEaMWp_N3nZ0j6I2ys-15" value="Observable" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="1117.75" y="4460" width="92" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-22" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="119" y="8240" width="581" height="106" as="geometry" />
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-81" value="多渠道加固" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="285" y="8424" width="75" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-1" value="测试环境" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="MccN-FEHdsWF_X3q3WXS-22">
-          <mxGeometry y="40" width="82" height="30" as="geometry" />
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-45" value="生产环境" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="28.5" y="8492.5" width="82" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="MccN-FEHdsWF_X3q3WXS-22">
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-46" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="82" y="55.5" as="sourcePoint" />
-            <mxPoint x="121" y="56" as="targetPoint" />
+            <mxPoint x="110.5" y="8508" as="sourcePoint" />
+            <mxPoint x="149.5" y="8508.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-3" value="打包" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#66B2FF;" vertex="1" parent="MccN-FEHdsWF_X3q3WXS-22">
-          <mxGeometry x="122" y="38.5" width="48" height="35" as="geometry" />
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-47" value="打包" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="150.5" y="8491" width="48" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="MccN-FEHdsWF_X3q3WXS-22">
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-62" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="171" y="55.5" as="sourcePoint" />
-            <mxPoint x="210" y="56" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-6" value="上传Apk" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#66B2FF;" vertex="1" parent="MccN-FEHdsWF_X3q3WXS-22">
-          <mxGeometry x="211" y="40" width="60" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-7" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="MccN-FEHdsWF_X3q3WXS-22">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="241" y="75" as="sourcePoint" />
-            <mxPoint x="281" y="90" as="targetPoint" />
+            <mxPoint x="160.01" y="8492.5" as="sourcePoint" />
+            <mxPoint x="210.5" y="8474" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="231" y="100" />
+              <mxPoint x="148.5" y="8464" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-8" value="上传蒲公英" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MccN-FEHdsWF_X3q3WXS-22">
-          <mxGeometry x="269" y="75" width="81" height="30" as="geometry" />
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-63" value="发版分支" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="208.5" y="8457.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="MccN-FEHdsWF_X3q3WXS-22">
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-86" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="272" y="57" as="sourcePoint" />
-            <mxPoint x="311" y="57.5" as="targetPoint" />
+            <mxPoint x="198.5" y="8508" as="sourcePoint" />
+            <mxPoint x="280" y="8509" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-10" value="生成二维码" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#66B2FF;" vertex="1" parent="MccN-FEHdsWF_X3q3WXS-22">
-          <mxGeometry x="311" y="40" width="70" height="35" as="geometry" />
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-87" value="加固" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="282" y="8491" width="48" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-12" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="MccN-FEHdsWF_X3q3WXS-22">
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-88" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="342.51" y="38.5" as="sourcePoint" />
-            <mxPoint x="393" y="20" as="targetPoint" />
+            <mxPoint x="330" y="8508" as="sourcePoint" />
+            <mxPoint x="369" y="8508.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-89" value="重新签名" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="368" y="8492.5" width="62" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-92" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="8522.5" as="sourcePoint" />
+            <mxPoint x="330" y="8537.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="331" y="10" />
+              <mxPoint x="280" y="8547.5" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-13" value="对应蒲公英下载二维码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MccN-FEHdsWF_X3q3WXS-22">
-          <mxGeometry x="382.05" width="90" height="30" as="geometry" />
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-93" value="多渠道分包" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="326.97" y="8527.5" width="65" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-14" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="MccN-FEHdsWF_X3q3WXS-22">
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-94" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="382" y="58" as="sourcePoint" />
-            <mxPoint x="421" y="58.5" as="targetPoint" />
+            <mxPoint x="430.25" y="8509.5" as="sourcePoint" />
+            <mxPoint x="480" y="8511" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-16" value="钉钉通知" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="MccN-FEHdsWF_X3q3WXS-22">
-          <mxGeometry x="423" y="41" width="70" height="35" as="geometry" />
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-95" value="存储Apk文件" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="479" y="8492.5" width="71" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="MccN-FEHdsWF_X3q3WXS-22">
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-102" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="493.5" y="59" as="sourcePoint" />
-            <mxPoint x="532.5" y="59.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-18" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="MccN-FEHdsWF_X3q3WXS-22">
-          <mxGeometry x="534" y="45" width="47" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-20" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="MccN-FEHdsWF_X3q3WXS-22">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="436" y="73.5" as="sourcePoint" />
-            <mxPoint x="476" y="88.5" as="targetPoint" />
+            <mxPoint x="487.51" y="8498.5" as="sourcePoint" />
+            <mxPoint x="538" y="8480" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="426" y="98.5" />
+              <mxPoint x="476" y="8470" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-21" value="打包结果通知" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MccN-FEHdsWF_X3q3WXS-22">
-          <mxGeometry x="472.04999999999995" y="76" width="60" height="30" as="geometry" />
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-103" value="推广包" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="528" y="8466.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-24" value="测试环境" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="120" y="8480" width="82" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-25" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-104" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="202" y="8495.5" as="sourcePoint" />
-            <mxPoint x="241" y="8496" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-26" value="打包" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="242" y="8478.5" width="48" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-27" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="291" y="8495.5" as="sourcePoint" />
-            <mxPoint x="330" y="8496" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-28" value="上传Apk" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="331" y="8480" width="60" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-29" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="361" y="8515" as="sourcePoint" />
-            <mxPoint x="401" y="8530" as="targetPoint" />
+            <mxPoint x="490.51" y="8478.5" as="sourcePoint" />
+            <mxPoint x="541" y="8460" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="351" y="8540" />
+              <mxPoint x="479" y="8450" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-30" value="上传蒲公英" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="389" y="8515" width="81" height="30" as="geometry" />
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-105" value="市场包" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="529" y="8442.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-31" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-106" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="392" y="8497" as="sourcePoint" />
-            <mxPoint x="431" y="8497.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-32" value="生成二维码" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#66B2FF;" vertex="1" parent="1">
-          <mxGeometry x="431" y="8480" width="70" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-33" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="462.51" y="8478.5" as="sourcePoint" />
-            <mxPoint x="513" y="8460" as="targetPoint" />
+            <mxPoint x="490" y="8524" as="sourcePoint" />
+            <mxPoint x="530" y="8539" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="451" y="8450" />
+              <mxPoint x="480" y="8549" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-34" value="对应蒲公英下载二维码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="502.05" y="8440" width="90" height="30" as="geometry" />
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-107" value="源Apk文件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="529" y="8526" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-35" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-1" value="测试环境" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="119" y="8280" width="82" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="502" y="8498" as="sourcePoint" />
-            <mxPoint x="541" y="8498.5" as="targetPoint" />
+            <mxPoint x="201" y="8295.5" as="sourcePoint" />
+            <mxPoint x="240" y="8296" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-36" value="钉钉通知" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="543" y="8481" width="70" height="35" as="geometry" />
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-3" value="打包" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="241" y="8278.5" width="48" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-37" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="613.5" y="8499" as="sourcePoint" />
-            <mxPoint x="652.5" y="8499.5" as="targetPoint" />
+            <mxPoint x="290" y="8295.5" as="sourcePoint" />
+            <mxPoint x="329" y="8296" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-38" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="654" y="8485" width="47" height="30" as="geometry" />
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MccN-FEHdsWF_X3q3WXS-6" target="MccN-FEHdsWF_X3q3WXS-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-39" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-6" value="上传Apk" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="330" y="8280" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-7" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="556" y="8513.5" as="sourcePoint" />
-            <mxPoint x="596" y="8528.5" as="targetPoint" />
+            <mxPoint x="360" y="8315" as="sourcePoint" />
+            <mxPoint x="400" y="8330" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="546" y="8538.5" />
+              <mxPoint x="350" y="8340" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MccN-FEHdsWF_X3q3WXS-40" value="打包结果通知" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="592.05" y="8516" width="60" height="30" as="geometry" />
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-8" value="上传蒲公英" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="388" y="8315" width="81" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="391" y="8297" as="sourcePoint" />
+            <mxPoint x="430" y="8297.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-10" value="生成二维码" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="430" y="8280" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-12" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="461.51" y="8278.5" as="sourcePoint" />
+            <mxPoint x="512" y="8260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="8250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-13" value="对应蒲公英下载二维码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="501.05" y="8240" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-14" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="501" y="8298" as="sourcePoint" />
+            <mxPoint x="540" y="8298.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-41" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250.51" y="8280" as="sourcePoint" />
+            <mxPoint x="301" y="8261.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="239" y="8251.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-42" value="指定测试分支" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="293" y="8240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-109" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="542" y="8281" width="158" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-16" value="钉钉通知" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="MccN-FEHdsWF_X3q3WXS-109">
+          <mxGeometry width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="MccN-FEHdsWF_X3q3WXS-109">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70.5" y="18" as="sourcePoint" />
+            <mxPoint x="109.5" y="18.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-18" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="MccN-FEHdsWF_X3q3WXS-109">
+          <mxGeometry x="111" y="4" width="47" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-20" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="MccN-FEHdsWF_X3q3WXS-109">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="13" y="32.5" as="sourcePoint" />
+            <mxPoint x="53" y="47.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3" y="57.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-21" value="打包结果通知" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="MccN-FEHdsWF_X3q3WXS-109">
+          <mxGeometry x="49.049999999999955" y="35" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-116" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="MccN-FEHdsWF_X3q3WXS-111">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="8509.5" as="sourcePoint" />
+            <mxPoint x="589" y="8510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-111" value="钉钉通知" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="600" y="8492" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-112" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670.5" y="8510" as="sourcePoint" />
+            <mxPoint x="709.5" y="8510.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-113" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="711" y="8496" width="47" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-114" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="613" y="8524.5" as="sourcePoint" />
+            <mxPoint x="653" y="8539.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="603" y="8549.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MccN-FEHdsWF_X3q3WXS-115" value="打包结果通知" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="649.05" y="8527" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
