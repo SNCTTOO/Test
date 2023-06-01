@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-01T04:39:31.258Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="tO7RHYdufwQCXr5Qfnf2" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-01T07:36:26.724Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="UtWH9gT_Tyr9TFVvQ5Y3" version="21.3.6" type="github">
   <diagram id="knnRiP61EcZTkkcnmOvv" name="Page-1">
-    <mxGraphModel dx="1687" dy="948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2332,12 +2332,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Q3nxrccQPxoIPcjkX9RQ-13" value="路由管理组件" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;dashed=1;dashPattern=1 4;" parent="1" vertex="1">
-          <mxGeometry x="2763" y="1850" width="315" height="560" as="geometry">
+          <mxGeometry x="2763" y="1850" width="315" height="430" as="geometry">
             <mxRectangle x="2763" y="1850" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Q3nxrccQPxoIPcjkX9RQ-16" value="A组件" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="2550" y="1890" width="130" height="490" as="geometry" />
+          <mxGeometry x="2550" y="1890" width="130" height="390" as="geometry" />
         </mxCell>
         <mxCell id="Q3nxrccQPxoIPcjkX9RQ-30" value="1.发起跳转B组件页面请求" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="Q3nxrccQPxoIPcjkX9RQ-16" edge="1">
           <mxGeometry x="0.0014" width="80" relative="1" as="geometry">
@@ -2347,10 +2347,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Q3nxrccQPxoIPcjkX9RQ-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="Q3nxrccQPxoIPcjkX9RQ-16" vertex="1">
-          <mxGeometry x="60" y="360" width="10" height="40" as="geometry" />
+          <mxGeometry x="60" y="300" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Q3nxrccQPxoIPcjkX9RQ-18" value="路由服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="2770" y="1890" width="145.63" height="490" as="geometry" />
+          <mxGeometry x="2770" y="1890" width="145.63" height="390" as="geometry" />
         </mxCell>
         <mxCell id="Q3nxrccQPxoIPcjkX9RQ-29" value="H5/RN/原生路由&lt;br&gt;规则解析" style="rhombus;whiteSpace=wrap;html=1;" parent="Q3nxrccQPxoIPcjkX9RQ-18" vertex="1">
           <mxGeometry x="15" y="70" width="115.63" height="50" as="geometry" />
@@ -2374,8 +2374,15 @@
             <mxPoint x="230" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Q3nxrccQPxoIPcjkX9RQ-64" value="6.通知跳转结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="Q3nxrccQPxoIPcjkX9RQ-18" edge="1">
+          <mxGeometry x="0.2669" relative="1" as="geometry">
+            <mxPoint x="240" y="301" as="sourcePoint" />
+            <mxPoint x="-150" y="301" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Q3nxrccQPxoIPcjkX9RQ-20" value="B组件业务接口管理" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="2950" y="1890" width="118" height="490" as="geometry" />
+          <mxGeometry x="2950" y="1890" width="118" height="390" as="geometry" />
         </mxCell>
         <mxCell id="Q3nxrccQPxoIPcjkX9RQ-57" value="3.找寻B组件服务成功，发起请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Q3nxrccQPxoIPcjkX9RQ-20" vertex="1">
           <mxGeometry x="-67.19000000000005" y="190" width="130" height="30" as="geometry" />
@@ -2387,10 +2394,10 @@
           <mxGeometry x="-34.38000000000011" y="100" width="64.37" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Q3nxrccQPxoIPcjkX9RQ-63" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="Q3nxrccQPxoIPcjkX9RQ-20" vertex="1">
-          <mxGeometry x="54" y="280" width="10" height="80" as="geometry" />
+          <mxGeometry x="54" y="280" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Q3nxrccQPxoIPcjkX9RQ-23" value="B组件" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="3160" y="1890" width="100" height="490" as="geometry" />
+          <mxGeometry x="3160" y="1890" width="100" height="390" as="geometry" />
         </mxCell>
         <mxCell id="Q3nxrccQPxoIPcjkX9RQ-61" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="Q3nxrccQPxoIPcjkX9RQ-23" vertex="1">
           <mxGeometry x="45" y="231" width="10" height="48" as="geometry" />
@@ -2412,13 +2419,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3210" y="2170" as="sourcePoint" />
             <mxPoint x="3030" y="2170" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Q3nxrccQPxoIPcjkX9RQ-64" value="6.通知跳转结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="1" edge="1">
-          <mxGeometry x="0.2669" relative="1" as="geometry">
-            <mxPoint x="3000" y="2250" as="sourcePoint" />
-            <mxPoint x="2620" y="2250" as="targetPoint" />
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
